@@ -1,4 +1,4 @@
 apache:
-  message: "{{ .Values.all.hosts.server1.message }}"
-  port: "{{ .Values.all.hosts.server1.port }}"
+  message: "{{ .Values.common.all.hosts.server1.message }}"
+  port: "{{ .Values.common.all.hosts.server1.port }}"
 
