@@ -18,7 +18,7 @@ spec:
         imagePullPolicy: Always
         env:
         - name: SERVER_MESSAGE
-          value: {{ .Values.all.hosts.server1.message | quote }}
+          value: {{ tpl .Values.apache.message . | quote }}
         ports:
         -  name: server-endpoint
            containerPort: 8000

@@ -8,5 +8,4 @@ spec:
   ports:
   - name: server-endpoint
     targetPort: server-endpoint
-    port: {{ .Values.all.hosts.server1.port }}
-  type: NodePort
+    port: {{ tpl (toString .Values.apache.port) . }}
