@@ -1,0 +1,5 @@
+{{- define "common.names.simple" -}}
+{{- .Release.Name -}}
+{{- end -}}
+
+
