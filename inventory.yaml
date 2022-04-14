@@ -1,0 +1,9 @@
+all:
+  hosts:
+    server1:
+      port: 8080
+      message: "Welcome from Server 1"
+    server2:
+      port: 8000
+      message: "Welcome from Server 2"
+

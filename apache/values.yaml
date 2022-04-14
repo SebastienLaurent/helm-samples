@@ -1,0 +1,4 @@
+apache:
+  image: fchapuzot/customhttpd:2.4
+  message: Welcome message
+  port: 8000
